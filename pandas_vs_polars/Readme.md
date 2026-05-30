@@ -1,6 +1,6 @@
 Download dataset from Kaggle : 
 
-https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores?select=PlayByPlay.parquet
+https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores
 
 Use Dataset PlayerStatistics.csv
 
