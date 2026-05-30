@@ -1,0 +1,9 @@
+[package]
+name = "nba_stats"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+polars = { version = "0.53.0", features = ["lazy", "csv","parquet",
+    "is_in","strings"]}
+polars-rows-iter = "0.13.2"
