@@ -108,11 +108,7 @@ impl GameOfLife  {
                 grid_as_vec.push(grid_value);
             }
         }
-        // Conversion de la grille 2D en vecteur linéaire.
-        //
-        // Le GPU manipule un buffer 1D de mémoire.
-        // Nous transformons donc la représentation logique
-        // de la grille en une représentation compatible GPU.
+        //Creation de l'instance du WGPU.
         let instance = wgpu::Instance::default();
         // Sélection automatique d'un adaptateur GPU.
         //
